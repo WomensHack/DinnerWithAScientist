@@ -12,6 +12,7 @@ body {
     background-attachment: fixed;
     border: 0;
     margin: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -32,6 +33,7 @@ h5 {
     font-weight: 700;
     line-height: 1.2857em;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .card {
@@ -138,7 +140,7 @@ h5 {
 }
 
 .section-welcome {
-/*
+    /*
     text-align: center;
     color: red;
 */

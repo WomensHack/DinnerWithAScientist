@@ -8,12 +8,15 @@
     margin: 10%;
     border-radius: 25px;
     background-color: lightblue;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
     margin: 0% 20%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 div {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
