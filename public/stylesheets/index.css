@@ -1,0 +1,9 @@
+@import 'welcomeSection.css';
+@import 'loginSection.css';
+@import 'formSection.css';
+@import 'matchSection.css';
+.button {
+    height: 200px;
+    width: 200px;
+    margin: 10%;
+}
