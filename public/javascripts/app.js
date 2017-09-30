@@ -1,15 +1,11 @@
-<<<<<<< HEAD
-$(document).ready(function () {
-=======
 /* fullpage.js methods*/
 
 $(document).ready(function() {
->>>>>>> a9113aeed767025ab09bc2254ff2a70e015f628d
     $('#fullpage').fullpage();
 });
-console.log('hi');
 
-<<<<<<< HEAD
+/* DOM manipulation methods */
+
 function setUserType(data) {
     if (data == "mentee") {
         var userType = document.getElementById("userType");
@@ -22,7 +18,6 @@ function setUserType(data) {
 
 
 }
-=======
 /* Bootstrap Form */
 
 var navListItems = $('div.setup-panel div a'),
@@ -66,8 +61,4 @@ allNextBtn.click(function(){
 
 $('div.setup-panel div a.btn-primary').trigger('click');
 
-/* DOM manipulation methods */
 
-
-
->>>>>>> a9113aeed767025ab09bc2254ff2a70e015f628d
