@@ -2,18 +2,50 @@
 <html>
 <head>
     <title>Dinner With A Scientist</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="./stylesheets/base.css" />
+
 </head>
 
 <body>
-    <nav>Nav Bar</nav>
-    <section>
-        <a href="mentee_login.html">
-            <div>Mentee</div>
-        </a>
-        <a href="mentor.html">
-            <div>Mentor</div>
-        </a>
-    </section>
+    <div id="fullpage">
+
+        <div class="section welcome">
+            <div>Welcome</div>
+            <p>Introduction here</p>
+        </div>
+
+        <div class="section login">
+            <a href="mentee_login.html">
+                <div>Mentee</div>
+            </a>
+            <a href="mentor.html">
+                <div>Mentor</div>
+            </a>
+        </div>
+
+        <div class="section form">
+            <div class="slide">Question 1</div>
+            <div class="slide"> Question 2</div>
+            <div class="slide">Question 3</div>
+        </div>
+
+        <div class="section match">
+            <div>Looking for a match</div>
+        </div>
+
+    </div>
+
+
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+    <!-- <script src="vendors/jquery.easings.min.js"></script> -->
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <!-- <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script> -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.js"></script>
+    <script src="./javascripts/app.js"></script>
 </body>
 
 </html>
