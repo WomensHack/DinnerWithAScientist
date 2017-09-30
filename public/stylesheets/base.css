@@ -2,20 +2,25 @@
 @import 'loginSection.css';
 @import 'formSection.css';
 @import 'matchSection.css';
-
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: url("../imgs/pic1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: 0;
+    margin: auto;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
 }
 
 .section {
-    padding: 0 50px;
+    padding: 0px;
 }
-
 
 html {
     font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -108,7 +113,7 @@ h5 {
     display: inline-block;
 }
 
-.profile-inline ~ .card-title {
+.profile-inline~.card-title {
     display: inline-block;
     margin-left: 4px;
     vertical-align: top;
