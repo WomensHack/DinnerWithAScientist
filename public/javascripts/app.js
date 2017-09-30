@@ -6,6 +6,17 @@ $(document).ready(function() {
 
 /* DOM manipulation methods */
 
+// $('.btn-success').onSubmit(function (e) {
+//     e.preventDefault();
+//     console.log(e);
+// })
+
+$('form').on('submit', function (e) {
+    // debugger;
+    e.preventDefault();
+    $('.form').html('<div class="successMessage">Success!</div>');
+});
+
 function setUserType(data) {
     if (data == "mentee") {
         var userType = document.getElementById("userType");

@@ -1,10 +1,15 @@
 .form {
-    background-color: #ADD8E6;
+    background-color: #FFF;
+    color: #383977;
 }
 
 /*.fp-tableCell {
     margin: auto;
 }*/
+
+.form h3 {
+  font-weight: 600;
+}
 
 .stepwizard-step p {
     margin-top: 10px;
@@ -31,8 +36,9 @@
     position: absolute;
     content: " ";
     width: 100%;
-    height: 1px;
-    background-color: #ccc;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #383977;
     z-order: 0;
 
 }
@@ -51,4 +57,48 @@
   font-size: 12px;
   line-height: 1.428571429;
   border-radius: 15px;
+}
+
+.nextBtn {
+  background-color: #383977;
+  color: #fff;
+}
+
+.form {
+    padding: 100px 0px;
+    margin: 0 auto;
+}
+
+.btn.purple {
+    background-color: #383977;
+    border-color: #383977;
+    box-shadow: #383977;
+}
+
+.form-control:focus,
+.form-control:active,
+.btn.purple:focus,
+.btn.purple:active {
+    box-shadow: #383977!important;
+}
+
+.btn.purple[disabled="disabled"] {
+    background-color: #e2e2e2;
+    color: #000;
+}
+
+a.btn.purple {
+  color: #fff;
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: unset;
+}
+
+.successMessage {
+    margin: 40% auto;
+    height: 300px;
+    width: 300px;
+    font-weight: 600;
+    font-size: 50px;
 }
