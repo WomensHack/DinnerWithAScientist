@@ -11,7 +11,7 @@ $(document).ready(function() {
 //     console.log(e);
 // })
 
-$('form').on('submit', function (e) {
+$('.fullpage').find('form').on('submit', function (e) {
     // debugger;
     e.preventDefault();
     $('.form').html('<div class="successMessage">Success!</div>');
