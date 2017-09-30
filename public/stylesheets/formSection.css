@@ -2,6 +2,10 @@
     background-color: #ADD8E6;
 }
 
+<<<<<<< HEAD
+.fp-tableCell {
+    margin: auto;
+=======
 .stepwizard-step p {
     margin-top: 10px;
 }
@@ -47,4 +51,5 @@
   font-size: 12px;
   line-height: 1.428571429;
   border-radius: 15px;
+>>>>>>> a9113aeed767025ab09bc2254ff2a70e015f628d
 }

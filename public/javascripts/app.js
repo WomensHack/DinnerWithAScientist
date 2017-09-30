@@ -1,10 +1,28 @@
+<<<<<<< HEAD
+$(document).ready(function () {
+=======
 /* fullpage.js methods*/
 
 $(document).ready(function() {
+>>>>>>> a9113aeed767025ab09bc2254ff2a70e015f628d
     $('#fullpage').fullpage();
 });
 console.log('hi');
 
+<<<<<<< HEAD
+function setUserType(data) {
+    if (data == "mentee") {
+        var userType = document.getElementById("userType");
+        userType.innerHTML = "mentee";
+    } else if (data == "mentor") {
+        var userType = document.getElementById("userType");
+        userType.innerHTML = "mentor";
+    }
+
+
+
+}
+=======
 /* Bootstrap Form */
 
 var navListItems = $('div.setup-panel div a'),
@@ -52,3 +70,4 @@ $('div.setup-panel div a.btn-primary').trigger('click');
 
 
 
+>>>>>>> a9113aeed767025ab09bc2254ff2a70e015f628d
