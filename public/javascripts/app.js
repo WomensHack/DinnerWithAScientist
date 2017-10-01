@@ -13,8 +13,8 @@ $(document).ready(function() {
 
 $('.fullpage').find('form').on('submit', function (e) {
     // debugger;
-    e.preventDefault();
     $('.form').html('<div class="successMessage">Success!</div>');
+    e.preventDefault();
 });
 
 function setUserType(data) {

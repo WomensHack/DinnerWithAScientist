@@ -2,6 +2,7 @@
 @import 'loginSection.css';
 @import 'formSection.css';
 @import 'matchSection.css';
+
 body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -12,6 +13,7 @@ body {
     background-attachment: fixed;
     border: 0;
     margin: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -32,6 +34,7 @@ h5 {
     font-weight: 700;
     line-height: 1.2857em;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .card {
@@ -135,4 +138,11 @@ h5 {
 
 .meta a:hover {
     color: rgba(0, 0, 0, .87);
+}
+
+.section-welcome {
+    /*
+    text-align: center;
+    color: red;
+*/
 }
