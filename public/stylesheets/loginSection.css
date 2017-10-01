@@ -1,4 +1,4 @@
-body {
+body.login {
   background: url("../imgs/background_2.jpg");
   background-size: cover;
   background-position: center center;
@@ -9,12 +9,12 @@ body {
   text-align: center;
 
 }
-h1 {
+.login h1 {
   color: white;
   padding-bottom: 50px;
 }
 
-label {
+.login label {
   border-top: 250px;
   text-align: center;
   color: white;

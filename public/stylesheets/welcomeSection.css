@@ -1,3 +1,10 @@
-.welcome {
-    background-color: #CAE1FF;
+.section.welcome {
+    background: url("../imgs/background_2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 75px;
 }
