@@ -15,7 +15,7 @@
     <div id="fullpage">
 
         <div class="section welcome">
-            <h1>Welcome Mentee</h1>
+            <h1>Welcome Student</h1>
             <h3>Introduction here</h3>
         </div>
 
@@ -87,10 +87,60 @@
         </div>
 
         <div class="section match">
-            <div>Looking for a match</div>
+            <div class="pairs">You have been paired with...</div>
+            <div class="profileCard" onclick="jQuery(this).toggleClass('active')">
+               <div class="profileCard__imageWrap" style="background-color: #383977;">
+                  <div class="profileCard__location">
+                     <i class="fa fa-map-pin"></i>
+                  </div>
+                  <div class="profileCard__thumbWrap">
+                     <img class="profileCard__thumb" src="../image/angela.jpg">
+                  </div>
+                  <header class="profileCard__header">
+                     <h1 class="profileCard__title">
+                        Angela Max
+                     </h1>
+                     <div class="profileCard__subTitle">
+                        Medical Researcher at UCSF
+                     </div>
+                  </header>
+               </div>
+               <div class="profileCard__contentWrap">
+                  <div class="profileCard__content">
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet euismod justo. Cras malesuada vel mi vitae varius. Cras porttitor nisi in tempus congue. Suspendisse feugiat nisi at est volutpat, et consequat nulla iaculis. Donec cursus ligula massa, at ullamcorper orci mollis vitae.
+                     </p>
+                  </div>
+               </div>
+               <ul class="profileCard__social">
+                  <li class="profileCard__socialItem">
+                     <a class="profileCard__socialLink" href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li class="profileCard__socialItem">
+                     <a class="profileCard__socialLink" href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li class="profileCard__socialItem">
+                     <a class="profileCard__socialLink" href="#"><i class="fa fa-instagram"></i></a>
+                  </li>
+                  <li class="profileCard__socialItem">
+                     <a class="profileCard__socialLink" href="#"><i class="fa fa-link"></i></a>
+                  </li>
+                  <li class="profileCard__socialItem">
+                     <a class="profileCard__socialLink" href="#"><i class="fa fa-envelope"></i></a>
+                  </li>
+               </ul>
+            </div>
+
         </div>
 
+
     </div>
+
+    <script>
+    $('.profielCard').click(function() {
+    $(this).toggleClass('active');
+    });
+    </script>
 
     <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
     <!-- <script src="vendors/jquery.easings.min.js"></script> -->

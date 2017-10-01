@@ -48,6 +48,7 @@ h5 {
   transition: height .3s ease-in;
   will-change: height;
 }
+
 .profileCard__imageWrap:before {
   content: '';
   width: 100%;
@@ -58,6 +59,7 @@ h5 {
   background-color: rgba(51, 51, 51, 0.25);
   z-index: 1;
 }
+
 .profileCard__location {
   color: #fff;
   z-index: 20;
@@ -221,7 +223,7 @@ h5 {
 body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    background: url("../imgs/pic1.jpg");
+    background: url("../imgs/background_1.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

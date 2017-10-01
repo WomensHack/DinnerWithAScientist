@@ -5,3 +5,9 @@
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+.pairs {
+    font-size: 50px;
+    color: #fff;
+    padding: 0 0 75px 50px;
+}
