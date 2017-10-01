@@ -96,8 +96,8 @@ a.btn.purple {
 }
 
 .successMessage {
-    margin: 40% auto;
-    height: 300px;
+    margin: 300px auto 0;
+    height: 100%;
     width: 300px;
     font-weight: 600;
     font-size: 50px;
