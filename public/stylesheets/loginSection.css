@@ -19,3 +19,40 @@ body.login {
   text-align: center;
   color: white;
 }
+
+.btn-login a {
+  display: inline-block;
+}
+
+.btn-login div {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn-login.left {
+    max-width: 200px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.btn-login.left div {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 auto;
+    padding-left: 130px;
+}
+
+.btn-login.right div {
+  padding-left: 70px;
+}
+
+.btn-login.right {
+    float: right;
+    margin-right: 200px;
+    margin-top: 40px;
+}
