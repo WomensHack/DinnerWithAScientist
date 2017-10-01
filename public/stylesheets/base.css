@@ -1,3 +1,224 @@
+<<<<<<< HEAD
+@import 'welcomeSection.css';
+@import 'loginSection.css';
+@import 'formSection.css';
+@import 'matchSection.css';
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.section {
+    padding: 0 50px;
+}
+
+
+html {
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h5 {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+    margin: 0;
+}
+
+.profileCard {
+  margin: 0 auto;
+  padding-bottom: 60px;
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+}
+.profileCard__imageWrap {
+  background-size: cover;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  -webkit-transition: height .3s ease-in;
+  transition: height .3s ease-in;
+  will-change: height;
+}
+.profileCard__imageWrap:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(51, 51, 51, 0.25);
+  z-index: 1;
+}
+.profileCard__location {
+  color: #fff;
+  z-index: 20;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.profileCard__header {
+  text-align: left;
+  padding-left: 140px;
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  color: #fff;
+  padding-left: 140px;
+  z-index: 20;
+  -webkit-transition: -webkit-transform .3s ease-in;
+  transition: -webkit-transform .3s ease-in;
+  transition: transform .3s ease-in;
+  transition: transform .3s ease-in, -webkit-transform .3s ease-in;
+  will-change: transform;
+}
+.profileCard__title {
+  margin: 0;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 400;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  z-index: 10;
+  position: relative;
+  padding-bottom: 6px;
+}
+.profileCard__subTitle {
+  color: #999;
+  font-size: 0.875em;
+  padding-top: 12px;
+  -webkit-transition: -webkit-transform .3s ease-in;
+  transition: -webkit-transform .3s ease-in;
+  transition: transform .3s ease-in;
+  transition: transform .3s ease-in, -webkit-transform .3s ease-in;
+  will-change: transform;
+}
+.profileCard__thumbWrap {
+  width: 110px;
+  height: 110px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 3px;
+  position: absolute;
+  bottom: -55px;
+  left: 15px;
+  border-radius: 110px;
+  z-index: 10;
+  -webkit-transition: -webkit-transform .3s linear;
+  transition: -webkit-transform .3s linear;
+  transition: transform .3s linear;
+  transition: transform .3s linear, -webkit-transform .3s linear;
+  will-change: transform;
+}
+.profileCard__thumb {
+  width: 104px;
+  height: 104px;
+  display: block;
+  border-radius: 84px;
+}
+.profileCard__contentWrap {
+  padding-bottom: 0px;
+  min-height: 50px;
+  position: relative;
+}
+.profileCard__contentWrap::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  z-index: 20;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #ffffff transparent;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  -webkit-transition: -webkit-transform .3s ease-in;
+  transition: -webkit-transform .3s ease-in;
+  transition: transform .3s ease-in;
+  transition: transform .3s ease-in, -webkit-transform .3s ease-in;
+  margin-left: -10px;
+}
+.profileCard__content {
+  padding: 20px 20px 0;
+  text-align: left;
+  line-height: 1.3;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-size: 0.875em;
+  color: #666;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+  -webkit-transition: max-height .3s ease-in, opacity .3s ease-in;
+  transition: max-height .3s ease-in, opacity .3s ease-in;
+  will-change: transform, opacity;
+  opacity: 0;
+  visibility: hidden;
+}
+.profileCard__content p {
+  margin: 0;
+}
+.profileCard__social {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: table;
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+.profileCard__socialItem {
+  display: table-cell;
+  text-align: center;
+}
+.profileCard__socialLink {
+  color: #999;
+}
+.profileCard:active .profileCard__imageWrap {
+  height: 150px;
+}
+.profileCard:active .profileCard__contentWrap:after {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.profileCard:active .profileCard__content {
+  max-height: 200px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: max-height .3s ease-in, opacity .3s ease-in;
+  transition: max-height .3s ease-in, opacity .3s ease-in;
+}
+.profileCard:active .profileCard__thumbWrap {
+  -webkit-transform: translateY(-70%);
+          transform: translateY(-70%);
+}
+.profileCard:active .profileCard__header {
+  -webkit-transform: translateY(-110%);
+          transform: translateY(-110%);
+}
+.profileCard:active .profileCard__subTitle {
+  color: #fff;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+=======
 @import 'welcomeSection.css';
 @import 'loginSection.css';
 @import 'formSection.css';
@@ -138,6 +359,7 @@ h5 {
 .meta a:hover {
     color: rgba(0, 0, 0, .87);
 }
+<<<<<<< HEAD
 
 .section-welcome {
     /*
@@ -145,3 +367,6 @@ h5 {
     color: red;
 */
 }
+=======
+>>>>>>> 3071819e42c2a3cf3ba7e4c66d061531a7127979
+>>>>>>> 8619feec9be629d807560d85e1337933c5ef6660
